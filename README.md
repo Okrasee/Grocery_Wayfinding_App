@@ -1,5 +1,5 @@
 # Grocery Wayfinding App - UX Design
-image one
+<img src="/profile.jpeg">
 
 **Human Factor Fall 2018 Final Project**, September - December 2018 <br>
 **My Role:** Research, Sketch, Prototype, UI/UX <br>
@@ -16,14 +16,12 @@ Create an app that
 * **sort user’s shopping list.**
 
 ## Interaction
-<p float="left">
-  <img src="/img1.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
-  <img src="/img3.png" width="100" />
+<p align="center">
+  <img src="/feature_1.gif" width="245" />&nbsp;
+  <img src="/feature_2.gif" width="245" />&nbsp;
+  <img src="/feature_3.gif" width="245" />&nbsp;
+  <img src="/feature_4.gif" width="245" />&nbsp;
 </p>
-
-![alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
 
 ## Features Walkthrough
 #### 1. Offer the full list of selections
@@ -31,14 +29,15 @@ Create an app that
 * When searching for products, user could narrow down his/her selections by using the filter feature.
 * When similar items are placed on different shelves, one may miss some of them if he does not check all of these shelves. However, if user searches in the app, all similar items would appear on the list to optimize the range of choices.
 
-image three
+<img src="/feature_5.png">
 
 #### 2. Display a map of the store
 * The app shows a map of the store layout. The orange pin stands for the location of the shelf that the target item is on.
 * The map could track the user’s precise location empowered by indoor positioning technology and provide him with the shortest route to the product.
 * Shelves are usually crammed with items such that people may not be able to spot the item instantly. With this app, however, he could view the specific location of the item on the shelf. The product is marked orange to be differed from other products on the shelf. The orange section of the bottom bar indicates how far the person is away from the product.
 
-image four
+<img src="/feature_6.png">
+<img src="/feature_7.png">
 
 #### 3. Create a sorted shopping list
 * When opening the app, the user would be directed to a screen which asks him to pick the store in which he will do grocery shopping. The app would then design the shopping route according to the distinctive layout of the store that the user has picked.
