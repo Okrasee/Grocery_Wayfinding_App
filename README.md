@@ -28,25 +28,32 @@ Create an app that
 * When the user inputs his target item, a list of relevant products would show up.  The list displays basic information including the name, price and rating of the item.
 * When searching for products, user could narrow down his/her selections by using the filter feature.
 * When similar items are placed on different shelves, one may miss some of them if he does not check all of these shelves. However, if user searches in the app, all similar items would appear on the list to optimize the range of choices.
-
-<img src="/feature_5.png">
+<p align="center">
+<img src="/feature_5.png" width="800">
+</p>
 
 #### 2. Display a map of the store
 * The app shows a map of the store layout. The orange pin stands for the location of the shelf that the target item is on.
 * The map could track the user’s precise location empowered by indoor positioning technology and provide him with the shortest route to the product.
 * Shelves are usually crammed with items such that people may not be able to spot the item instantly. With this app, however, he could view the specific location of the item on the shelf. The product is marked orange to be differed from other products on the shelf. The orange section of the bottom bar indicates how far the person is away from the product.
 
-<img src="/feature_6.png">
 <p align="center">
-<img src="/feature_7.png" width="750">
+<img src="/feature_6.png" width="800">
+</p>
+<p align="center">
+<img src="/feature_7.png" width="600">
 </p>
 
 #### 3. Create a sorted shopping list
 * When opening the app, the user would be directed to a screen which asks him to pick the store in which he will do grocery shopping. The app would then design the shopping route according to the distinctive layout of the store that the user has picked.
 * The shopping list is automatically sorted by aisle and arranged by store layout which creates the most efficient shopping route. By following the shopping list, the user could avoid running back and forth in the store. 
 
-<img src="/feature_8.png">
-<img src="/feature_9.png">
+<p align="center">
+<img src="/feature_8.png" width="800">
+</p>
+<p align="center">
+<img src="/feature_9.png" width="800">
+</p>
 
 #### 4. Inform unavailability of a product
 * People would waste time searching in vain if they do not know that the product is actually not available in store. To prevent this, user could check the availability of an item in the app. 
@@ -54,7 +61,9 @@ Create an app that
 * Besides suggesting a list of similar items, the app would also provide a list of stores that have the target item in stock in case the user really needs it. 
 * The user could get the basic information of the stores that offer the target item, and could also set it as the home store in order to access the store map.
 
-<img src="/feature_10.png">
+<p align="center">
+<img src="/feature_10.png" width="800">
+</p>
 
 ## ***Design Process***
 ### Task Analysis
@@ -81,9 +90,15 @@ People who
 ### Environment conditions
 Big grocery stores which offer all kinds of products needed in daily life. Products are usually grouped by category and crammed on one shelf. But similar products may also be distributed among separate areas in the store. There are aisle signs to guide people to the shelf that their target products locate on. Each store has a different store layout. The stores are crowded during weekends in the day. One could ask an employee for help (e.g. ask for the location of a product or check availability) or go to the customer service. 
 ### Actions Required in Sequence
-<img src="/task_analysis.jpeg">
-I further divided the second main task into smaller components since this is the major task that I want to analyze.
-<img src="/task_analysis_1.jpeg">
+<p align="center">
+<img src="/task_analysis.jpeg" width="800">
+</p>
+I further divided the second main task into smaller components since this is the major task that I want to analyze. 
+<br>
+<br>
+<p align="center">
+<img src="/task_analysis_1.jpeg" width="800">
+</p>
 
 ### User Study
 I asked my users to shop for the following week while I observed how they collected the items they wanted. During my observation, I found all of them made several mistakes. And I also interviewed them with regard to their shopping experience and habits.
@@ -114,7 +129,9 @@ Her problems:
 
 ### Key Insights 
 The problems I observed through user study could be categorized into four groups:
-<img src="/category.png">
+<p align="center">
+<img src="/category.png" width="500">
+</p>
 
 ### Human Factor Concepts & Display Design Principles
 1. Eliminate resource-demanding cognitive task and reduce the use of user’s mental resources;
@@ -124,13 +141,15 @@ The problems I observed through user study could be categorized into four groups
 5. Redundancy check
 
 ### Ideation + Sketches
-<img src="/draft.jpeg">
+<p align="center">
+<img src="/draft.jpeg" width="600">
+</p>
 
 ### Prototype Iterations
 I created mockups based on my sketches and went through two iterations before landing on my final prototypes. Improvements were made to elevate the aesthetics of the interfaces and increase functionality of the app.
-image ten
+1st iteration
 <img src="/iteration_1.jpeg">
-image eleven
+2nd iteration
 <img src="/iteration_2.jpeg">
 
 ### Final Prototype Overview
@@ -145,4 +164,6 @@ image eleven
 * I am thinking about marking sections in the store by different color to make the store layout more clear. I will conduct user testing to find out if this design is better than the current iteration.
 * My current app interfaces focus on making pathfinding more efficient when people do grocery shopping. However, there are other issues that could be improved. For instance, the app could inform customer about offers and discounts near their position. I could do a more thorough user study to find out other problems and add new features to this app.
 * My next step is to implement an AR navigation feature by using ARCore and Android Studio since I have some experience with building Android app. My idea is that the app generates a virtual path that leads the user to the product.  I believe displaying spatial navigation information is more intuitive than a 2D map. Here is a prototype:
-<img src="/ar.jpeg">
+<p align="center">
+<img src="/ar.jpeg" width="800">
+</p>
