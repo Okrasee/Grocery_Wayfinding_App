@@ -43,8 +43,8 @@ Create an app that
 * When opening the app, the user would be directed to a screen which asks him to pick the store in which he will do grocery shopping. The app would then design the shopping route according to the distinctive layout of the store that the user has picked.
 * The shopping list is automatically sorted by aisle and arranged by store layout which creates the most efficient shopping route. By following the shopping list, the user could avoid running back and forth in the store. 
 
-image five
-image six
+<img src="/feature_8.png">
+<img src="/feature_9.png">
 
 #### 4. Inform unavailability of a product
 * People would waste time searching in vain if they do not know that the product is actually not available in store. To prevent this, user could check the availability of an item in the app. 
