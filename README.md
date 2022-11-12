@@ -37,7 +37,9 @@ Create an app that
 * Shelves are usually crammed with items such that people may not be able to spot the item instantly. With this app, however, he could view the specific location of the item on the shelf. The product is marked orange to be differed from other products on the shelf. The orange section of the bottom bar indicates how far the person is away from the product.
 
 <img src="/feature_6.png">
-<img src="/feature_7.png">
+<p align="center">
+<img src="/feature_7.png" width="750">
+</p>
 
 #### 3. Create a sorted shopping list
 * When opening the app, the user would be directed to a screen which asks him to pick the store in which he will do grocery shopping. The app would then design the shopping route according to the distinctive layout of the store that the user has picked.
@@ -52,7 +54,7 @@ Create an app that
 * Besides suggesting a list of similar items, the app would also provide a list of stores that have the target item in stock in case the user really needs it. 
 * The user could get the basic information of the stores that offer the target item, and could also set it as the home store in order to access the store map.
 
-image seven
+<img src="/feature_10.png">
 
 ## ***Design Process***
 ### Task Analysis
@@ -79,9 +81,9 @@ People who
 ### Environment conditions
 Big grocery stores which offer all kinds of products needed in daily life. Products are usually grouped by category and crammed on one shelf. But similar products may also be distributed among separate areas in the store. There are aisle signs to guide people to the shelf that their target products locate on. Each store has a different store layout. The stores are crowded during weekends in the day. One could ask an employee for help (e.g. ask for the location of a product or check availability) or go to the customer service. 
 ### Actions Required in Sequence
-image eight
+<img src="/task_analysis.jpeg">
 I further divided the second main task into smaller components since this is the major task that I want to analyze.
-image nine
+<img src="/task_analysis_1.jpeg">
 
 ### User Study
 I asked my users to shop for the following week while I observed how they collected the items they wanted. During my observation, I found all of them made several mistakes. And I also interviewed them with regard to their shopping experience and habits.
@@ -112,7 +114,7 @@ Her problems:
 
 ### Key Insights 
 The problems I observed through user study could be categorized into four groups:
-image ten
+<img src="/category.png">
 
 ### Human Factor Concepts & Display Design Principles
 1. Eliminate resource-demanding cognitive task and reduce the use of user’s mental resources;
@@ -122,17 +124,17 @@ image ten
 5. Redundancy check
 
 ### Ideation + Sketches
-image eleven
+<img src="/draft.jpeg">
 
 ### Prototype Iterations
 I created mockups based on my sketches and went through two iterations before landing on my final prototypes. Improvements were made to elevate the aesthetics of the interfaces and increase functionality of the app.
 image ten
-1st iteration
+<img src="/iteration_1.jpeg">
 image eleven
-2nd iteration
+<img src="/iteration_2.jpeg">
 
 ### Final Prototype Overview
-image twelve
+<img src="/final_prototype.png">
 
 ### Tradeoffs
 * Implementing an app may be costly because it takes time and effort to polish the design, maintain the system and update it. The app also needs to be promoted to increase its use among popularity.
@@ -143,4 +145,4 @@ image twelve
 * I am thinking about marking sections in the store by different color to make the store layout more clear. I will conduct user testing to find out if this design is better than the current iteration.
 * My current app interfaces focus on making pathfinding more efficient when people do grocery shopping. However, there are other issues that could be improved. For instance, the app could inform customer about offers and discounts near their position. I could do a more thorough user study to find out other problems and add new features to this app.
 * My next step is to implement an AR navigation feature by using ARCore and Android Studio since I have some experience with building Android app. My idea is that the app generates a virtual path that leads the user to the product.  I believe displaying spatial navigation information is more intuitive than a 2D map. Here is a prototype:
-image thirteen
+<img src="/ar.jpeg">
