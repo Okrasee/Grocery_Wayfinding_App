@@ -142,7 +142,8 @@ The problems I observed through user study could be categorized into four groups
 
 ### Ideation + Sketches
 <p align="center">
-<img src="/draft.jpeg" width="600">
+<img src="/draft.jpeg" width="450" height="550">
+<img src="/draft_1.jpeg" width="450" height="550">
 </p>
 
 ### Prototype Iterations
